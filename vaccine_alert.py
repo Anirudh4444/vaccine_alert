@@ -8,6 +8,7 @@ x=input("Enter pincode :- ")
 y=input("Enter date (Enter date in dd-mm-yyyy format ):-")
 z=input("Enter minimum age:-")
 
+data=[]
 sixdays=[]
 day_delta = datetime.timedelta(days=1)
 date_dt3 = datetime.datetime.strptime(y, '%d-%m-%Y')
